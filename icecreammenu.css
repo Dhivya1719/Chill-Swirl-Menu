@@ -1,0 +1,104 @@
+/* Background Styling */
+body {
+  background-image: url(https://previews.123rf.com/images/annmaysnz/annmaysnz2002/annmaysnz200200097/141437201-pale-light-blue-plain-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Main Menu Container */
+.menu {
+  width: 90%; /* Takes most of the screen */
+  max-width: 1000px; /* Limits maximum width */
+  background-color: rgb(93, 149, 221);
+  margin: 20px auto; /* Centers the menu */
+  padding: 20px;
+  display: flex; /* Enables Flexbox */
+  justify-content: space-between; /* Spaces out the sections */
+  align-items: flex-start; /* Aligns content at the top */
+  gap: 50px; /* Adds space between the two sections */
+}
+
+/* Left & Right Sections */
+.scoops-section, .sundaes-section {
+  flex: 1; /* Ensures equal width for both sections */
+  padding: 20px;
+}
+
+.scoops-section {
+  text-align: left; /* Aligns text to the left */
+}
+
+.sundaes-section {
+  text-align: right; /* Aligns text to the right */
+}
+
+/* Title & Headings */
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: Impact, serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Impact, serif;
+}
+
+.established {
+  font-style: italic;
+  text-align: center;
+}
+
+/* Divider Line */
+hr {
+  height: 2px;
+  background-color: rgb(253, 253, 253);
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* Centering Images */
+.scoops-section img, .sundaes-section img {
+  display: block;
+  margin: 10px auto;
+}
+
+/* Styling for Ice Cream Items */
+.item {
+  display: flex;
+  justify-content: space-between; /* Aligns name on left, price on right */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.scoop, .sundaes, .shakes {
+  text-align: left;
+  flex-grow: 1; /* Allows text to take up space */
+}
+
+.price {
+  text-align: right;
+  width: 80px; /* Ensures prices are aligned properly */
+  font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.address {
+  margin-bottom: 5px;
+  font-style: italic;
+  font-weight: bold;
+}
